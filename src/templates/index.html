@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GO REG!</title>
+    <link rel="stylesheet" href="/assets/css/master.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div class="container">
+      <div class="half-doc left-doc">
+        <h1>WELCOME!</h1>
+      </div><!--
+   --><div class="half-doc right-doc">
+        <div class="form-title">
+          <h1>REGISTER NOW!</h1>
+        </div>
+        <div class="form-container">
+          <form class="reg-form" action="/register" method="post">
+            <input placeholder="Enter your name" class="form-control" required type="text" name="name" value="" pattern="[a-zA-Z0-9]{3,16}" />
+            <input placeholder="Enter your email" class="form-control" required type="email" name="email" value="" />
+            <input placeholder="Enter your password" class="form-control" required type="password" name="password" value="" pattern="[a-zA-Z0-9]{3,16}" />
+            <input class="form-submit" type="submit" value="REGISTER">
+          </form>
+        </div>
+        <div class="half-foot">
+          <ul class="link-list">
+            <li class="link-list-item">
+              <a href="/view/">
+                VIEW
+              </a>
+            </li>
+            <li class="link-list-item item-pay">
+              PAY
+            </li>
+            <li class="link-list-item item-click">
+              CLICK
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+  </body>
+</html>

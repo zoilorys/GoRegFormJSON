@@ -1,0 +1,134 @@
+* { padding: 0px; margin: 0px;}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.half-doc {
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+  height: 98vh;
+}
+
+.left-doc {
+  background: yellowgreen;
+}
+
+.left-doc h1 {
+  text-align: center;
+  color: white;
+  line-height: 95vh;
+}
+
+.left-doc.error {
+  background: red;
+}
+
+.right-doc.result {
+  text-align: center;
+}
+
+.form-title {
+  box-sizing: border-box;
+  height: 80px;
+  text-align: center;
+  line-height: 79px;
+}
+
+.form-container {
+  box-sizing: border-box;
+  height: 450px;
+}
+
+.half-foot {
+  box-sizing: border-box;
+  height: 80px;
+}
+
+.reg-form .form-control {
+  box-sizing: border-box;
+  display: block;
+  width: 90%;
+  margin: 5px auto;
+  height: 60px:
+  border: 1px solid #393939;
+  border-radius: 5px;
+}
+
+.reg-form .form-submit {
+  box-sizing: border-box;
+  display: block;
+  margin: 5px auto;
+  width: 100px;
+  height: 60px;
+  color: white;
+  background: yellowgreen;
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+}
+
+.link-list {
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  list-style-type: none;
+  display: block;
+}
+
+.link-list-item {
+  cursor: pointer;
+  display: inline-block;
+  width: 70px;
+  height: 50px;
+  line-height: 48px;
+  text-align: center;
+  color:white;
+  background: yellowgreen;
+}
+
+.link-list-item a {
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+.modal-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(50,50,50,0.6);
+}
+
+.modal {
+  position: relative;
+  margin: 200px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 40%;
+  background: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.modal-text {
+  display: block;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.modal-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  background: yellowgreen;
+  color: white;
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+}
